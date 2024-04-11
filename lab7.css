@@ -1,0 +1,411 @@
+body{
+    background-color: beige;
+}
+.frame{
+    background-image: url(images/hat.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.frame2{
+    margin-top: 30px;
+}
+.frame3{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-image: url(images/about.jpg);
+    background-size: cover;
+    border-radius: 15px;
+}
+.description{
+    display: inline-flex;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding:20px;
+    background-color: rgb(255, 180, 255);
+}
+.start{
+    font-size: 28px;
+    width: 700;
+    padding-bottom: 20px;
+}
+.pictures{
+    width: 100%;
+}
+.pictures th{
+    font-size: 20px;
+    font-weight: 550;
+}
+.image{
+    border-radius: 10px;
+    transition: 1s;
+}
+.image:hover{
+    box-shadow: rgb(87, 0, 72) 0px 20px 25px -5px, rgb(255, 109, 236) 0px 10px 10px -5px;
+}
+.name {
+    font-size: 28px;
+    width: 700;
+}
+.lozung{
+    font-size: 26px;
+    width: 800;
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.contacts{
+    margin-right: 5%;
+    margin-left: auto;
+}
+.contacts .link{
+    list-style: none;
+    display: inline-flex; 
+    padding:50px;
+    justify-content: center;
+} 
+.link-content{
+    list-style: none;
+    position: relative;
+}
+.link-content{
+    display: none;
+    font-size: 18px;
+    font-weight: 600;
+    position: absolute;
+    padding-right: 40px;
+    top:120px;
+}
+.link:hover .link-content{
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(2px);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container ul{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.title{
+    text-align: center;
+    background-color:rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    padding:20px;
+    margin-left: 3%;
+}
+.navigation{
+    padding-bottom: 20px;
+}
+.navigator{
+    width:96%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:70px;
+    font-size: 22px;
+    font-weight: 400;
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(2px);
+    border-radius: 15px;
+}
+.navigator a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.navigator a:hover{
+    color: rgb(52, 0, 110);
+}
+
+.company_picture{
+    border-radius: 10px;
+    width: 100%;
+}
+.company_text1{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(61, 0, 51);
+}
+.picture_block{
+    width:60%;
+}
+.company_text{
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 40%;
+    margin-left: 2%;
+}
+.company_text2{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgb(61, 0, 51);
+    font-style: italic;
+}
+.line{
+    margin: 20px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    border-top: 1px solid #333;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+.line2{
+    margin: 40px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    border-top: 1px solid rgb(99, 72, 255);
+    box-shadow: 0 10px 10px -10px #8a8cff inset;
+}
+.line3{
+    margin: 40px 0;
+    padding: 0;
+    height: 10px;
+    border: none;
+    border-top: 1px solid rgb(255, 207, 74);
+    box-shadow: 0 10px 10px -10px #c7c7c7 inset;
+}
+.autor{
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+}
+.about{
+    padding-top: 40px;
+    padding-bottom: 60px;
+    width: 90%;
+    margin: auto;
+}
+.about_title{
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-style:groove;
+    border-color: rgb(0, 105, 131);
+    background-color: rgb(167, 237, 255);
+    border-radius: 10px;
+}
+.about_content{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    border-style:groove;
+    border-color: rgb(0, 105, 131);
+    background-color: rgb(167, 237, 255);
+    border-radius: 10px; 
+}
+.aboutus{
+    padding:30px;
+    font-size: 32px;
+    font-weight: 600;
+}
+.userform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction:column;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: ridge;
+    border-color:rgb(144, 47, 255);
+    background: linear-gradient(to bottom,rgb(191, 136, 255), rgb(241, 174, 255),rgb(191, 136, 255),rgb(241, 174, 255));
+    padding:30px;
+    border-radius: 200px;
+}
+.user-content{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:20px;
+    font-weight: 500;
+    padding: 20px;
+    width: 40%;
+}
+.button{
+    margin-left: auto;
+    margin-right: auto;
+}
+.userform button{
+    font-size:20px;
+    font-weight: 500;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: 1s;
+}
+.userform button:hover{
+    background-color: rgb(255, 181, 255);
+    box-shadow: 0 10px 10px -10px grey inset;
+}
+.userform input{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+.userform select{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+.countries{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.country{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin: 10px;
+    background-color: rgb(201, 201, 201);
+    border-style: outset;
+    border-width: 10px;
+    border-radius: 5px;
+}
+.country_inf{
+    display: flex;
+    flex-direction: column;
+    padding:20px;
+    width: 50%;
+}
+.country_title{
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4%;
+}
+.country_description{
+    font-size: 18px;
+    font-weight: 500;
+}
+.country_image{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.country_image{
+    transition: 1s;
+}
+.country_image img:hover{
+    opacity: 0%;
+}
+.country_image:hover{
+    background-image: url(images/countries/brazil.jpg);
+}
+.country_image img{
+    border-radius: 10px;  
+    width: 80%; 
+}
+
+.spisok-countries {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+.spisok-countries a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+}
+.spisok-countries th{
+    padding: 18px;
+}
+.link_spisok a{
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 10px;
+    background-color: rgb(219, 219, 219);
+    transition: 0.5s;
+}
+.link_spisok a:hover{
+    background-color: rgb(204, 204, 204);
+    color: rgb(0, 2, 133);
+}
+.travel-to{
+    color: aliceblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(to right,rgb(177, 185, 255),rgb(9, 0, 87),rgb(9, 0, 87),rgb(9, 0, 87),rgb(177, 185, 255));
+}
+.country-turs{
+    display: flex;
+    flex-direction: column;
+    width:98%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30x;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.country-tur{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    padding:10px;
+}
+.country-tur-title{
+    margin-left:auto;
+    margin-right: auto;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.places{
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+}
+.place{
+    display: flex;
+    flex-direction: column;
+    border-style: inset;
+    border-color: orange;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    width: 28%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding:30px;
+    box-shadow: 10px 10px 10px -10px #8c8b8b inset;
+}
+.place-tur-title{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.place-tur-description{
+    font-size: 18px;
+    border:none;
+    border-top-style: groove;
+    border-top-width: 3px;
+    border-top-color: chocolate;
+    padding-top: 20px;
+}
